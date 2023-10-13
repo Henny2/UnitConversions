@@ -1,5 +1,5 @@
 //
-//  TabView.swift
+//  UnitConversionTabsView.swift
 //  UnitConversions
 //
 //  Created by Henrieke Baunack on 10/12/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct UnitConversionView: View {
+struct UnitConversionTabsView: View {
     var body: some View {
         TabView {
             ContentView()
@@ -23,5 +23,5 @@ struct UnitConversionView: View {
 }
 
 #Preview {
-    UnitConversionView()
+    UnitConversionTabsView()
 }
